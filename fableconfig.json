@@ -1,0 +1,6 @@
+{
+    "module": "commonjs",
+    "sourceMaps": true,
+    "projFile": "./src/Playground.fsproj",
+    "outDir": "./build/fsx"
+}
