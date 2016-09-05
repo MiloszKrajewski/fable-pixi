@@ -1,5 +1,5 @@
-# fable-bootstrap-virtualdom
-Scaffolding for project with Fable, Bootstrap and VirtualDom.
+# fable-pixi
+Scaffolding for project with Fable, Bootstrap and Pixi.
 
 Includes:
 * Fable
@@ -7,6 +7,6 @@ Includes:
 * TypeScript
 * Bootstrap
 * jQuery (more like a Bootstrap dependency but usable)
-* VirtualDom (+ Fable wrapper)
+* Pixi.js (+ Fable wrapper)
 * Stylus
 * Webpack
