@@ -4,6 +4,7 @@ open System
 open Fable.Core
 open Fable.Core.JsInterop
 open Fable.Import
+open Fable.Import.Browser
 
 module Main =
     let bunnyUrl = importDefault<string> "bunny.png"
@@ -16,7 +17,7 @@ module Main =
     let main () =
         let renderer = PIXI.CanvasRenderer (800.0, 600.0) 
         let loader = PIXI.Globals.loader
-        Browser.document.body.appendChild(renderer.view) |> ignore
+        document.body.appendChild(renderer.view) |> ignore
 
         let stage = PIXI.Container ()
 
